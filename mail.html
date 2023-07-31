@@ -21,10 +21,10 @@
       }
       .container {
         margin: 0 auto;
-        width: 400px;
-        height: 902px;
+        width: 490px;
+        height: 1060px;
 
-        background: url(https://fdm-bucket.s3.us-east-2.amazonaws.com/media/casanare/plantilla27julio.png);
+        background: url(https://fdm-bucket.s3.us-east-2.amazonaws.com/media/casanare/mail-m%C3%A1s-despiece_0015_Rect%C3%A1ngulo-4.png);
         background-position: center;
         background-size: cover;
       }
@@ -37,27 +37,21 @@
         margin: 20px auto 30px;
       }
       .group {
-        padding: 8px 0px;
+        padding: 8px;
       }
-      .textBlue {
-        height: 55px;
-        margin-right: auto;
+      .img {
+        width: 100%;
+        margin-bottom: 4px;
       }
       .right {
         height: 67px;
         margin-right: 0 !important;
         margin-left: auto;
       }
-      .link-content {
-        display: flex;
-        margin-top: 4px;
-      }
       .img-link {
         height: 160px;
       }
-      .conten-texto {
-        margin: 4px 6px;
-      }
+      
       .text-right.conten-texto {
         margin: auto 6px 6px;
       }
@@ -65,19 +59,6 @@
         color: #090088;
         font-size: 13px;
         font-weight: 500;
-      }
-      .amarillo {
-        color: #ffb301;
-        margin: 0;
-        font-weight: bold;
-      }
-      .azul {
-        color: #03bccc;
-        margin: 0;
-        font-weight: bold;
-      }
-      .blanco {
-        color: #fff;
       }
       .text-right {
         text-align: right;
@@ -102,13 +83,11 @@
         margin: auto 4px;
         font-size: 14px;
       }
+      a {
+        text-decoration: none;
+      }
     </style>
   </head>
-  <style>
-    A {
-      text-decoration: none;
-    }
-  </style>
   <body>
     <div class="container">
       <div class="flex">
@@ -122,40 +101,48 @@
         <img class="text-top" src="visita.png" alt="" />
       </div>
 
-      <div class="group">
-        <img class="textBlue" src="lugares.png" alt="" />
-        <div class="link-content">
+      <div class="flex">
+
+        <div class="group">
+          <a class="link" target="_blank" href="https://youtu.be/vldzseazzck">
+            <img class="img img-link" src="toro.png" alt="" />
+          </a>
+          <img class="img textBlue" src="lugares.png" alt="" />
+          <img class="img img-monumentos" src="momentos.png" alt="" />
+        </div>
+
+        <div class="group">
+          <a class="link" target="_blank" href="https://youtu.be/KcdiUIyPW1o">
+            <img class="img img-link" src="carneasada.png" alt="" />
+          </a>
+          <img class="img textBlue" src="tipica.png" alt="" />
+          <img class="img img-algomas" src="fronteras.png" alt="" />
+        </div>
+
+      </div>
+
+      <div class="flex">
+
+        <div class="group">
           <a class="link" target="_blank" href="https://youtu.be/i22VhkCZh8w">
-            <img class="img-link" src="toro.png" alt="" />
+            <img class="img img-link" src="sombrero.png" alt="" />
           </a>
-          <div class="conten-texto">
-            <p class="text amarillo">ALGO MÁS QUE UN SOMBRERO...</p>
-
-            <span class="text"
-              >Extensión de su identidad y tradición, mientras simboliza orgullo
-              y humildad de su cultura
-            </span>
-          </div>
+          <img class="img textBlue" src="sombreros.png" alt="" />
+          <img class="img img-algomas" src="algomas.png" alt="" />
         </div>
-      </div>
 
-      <div class="group">
-        <div class="flex">
-          <img class="textBlue right" src="comida.png" alt="" />
-        </div>
-        <div class="link-content">
-          <div class="text text-right conten-texto">
-            <span class="text-right azul">CASANARE PALPITA</span>
-            <span class="blanco">
-              Música, baile, arte y gastronomía autóctona de la región, que
-              hacen palpitar el corazón de miles de visitantes
-            </span>
-          </div>
+        <div class="group">
           <a class="link" target="_blank" href="https://youtu.be/FGQhDGpBdg8">
-            <img class="img-link" src="carne.png" alt="" />
+            <img class="img img-link" src="pareja.png" alt="" />
           </a>
+          <img class="img textBlue" src="eventos.png" alt="" />
+          <img class="img img-algomas" src="palpita.png" alt="" />
         </div>
+
       </div>
+
+
+
 
       <img class="img-logos" src="./mail_0018_logos-formularios-1.png" alt="" />
 
